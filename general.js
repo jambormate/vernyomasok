@@ -14,7 +14,7 @@ function randomElem(lista) {
 for (let i = 0; i < 25; i++) {
   adatok.push({
     nev: `${randomElem(vezeteknevek)} ${randomElem(keresztnevek)}`,
-    vernyomas: Math.floor(Math.random() * (160 - 90 + 1)) + 90
+    vernyomas: Math.floor(Math.random() * (160 - 90 + 1)) + 90+ "/"+ (Math.floor(Math.random() * (160 - 90 + 1)) + 90)
   });
 }
 
